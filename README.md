@@ -147,6 +147,13 @@ pcap-analyzer/
 ├── main.py
 ├── requirements.txt
 └── pcap_analyzer/
+    ├── __init__.py
+    ├── cli.py
+    ├── constants.py
+    ├── models.py
+    ├── pcap.io
+    ├── proto_stats.py
+    ├── utils.py
     ├── host_inventory.py
     ├── dns_analysis.py
     ├── http_analysis.py
@@ -154,7 +161,7 @@ pcap-analyzer/
     ├── focus.py
     ├── vt_enrichment.py
     ├── tshark_enrichment.py
-    └── reporting/
+    └── reporting.py
 
 ---
 
@@ -184,3 +191,4 @@ pcap-analyzer/
 ## 👤 Author
 
 Lorenzo Mastandrea
+
