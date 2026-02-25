@@ -102,7 +102,7 @@ python main.py sample.pcap --vt --vt-key YOUR_API_KEY
 Or set it as an environment variable:
 
 export VT_API_KEY=YOUR_API_KEY      # macOS / Linux
-setx VT_API_KEY YOUR_API_KEY        # Windows
+set VT_API_KEY YOUR_API_KEY        # Windows
 
 ---
 
@@ -191,4 +191,5 @@ pcap-analyzer/
 ## 👤 Author
 
 Lorenzo Mastandrea
+
 
